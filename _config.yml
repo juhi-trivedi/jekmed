@@ -12,6 +12,11 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 meta_description: "Jekyll template, Medium styled, free for bloggers."
 
+#############
+keep_files: [assets]
+exclude: ["_webpack"]
+source: src
+destination: dist
 
 # Build settings
 markdown: kramdown
@@ -65,11 +70,6 @@ algolia:
 # for algolia data push [run in bash]:: ALGOLIA_API_KEY='your_admin_api_key' bundle exec jekyll algolia push
 
 
-#############
-keep_files: [assets]
-exclude: ["_webpack"]
-source: src
-destination: dist
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

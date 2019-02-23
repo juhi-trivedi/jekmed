@@ -1,1 +1,1 @@
-ALGOLIA_API_KEY='3021070c69564c12e49e8489f1b18cb4' bundle exec jekyll algolia
+set ALGOLIA_API_KEY='3021070c69564c12e49e8489f1b18cb4' && bundle exec jekyll algolia

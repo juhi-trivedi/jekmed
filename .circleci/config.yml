@@ -32,12 +32,12 @@ jobs:
           name: Bundle Install
           command: bundle check || bundle install
 
+      - run:
+          name: Update Algolia
+          command: bin/update-algolia
+
       # Store bundle cache
       - save_cache:
           key: jekyll-bundle-v2-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
-
-      - run:
-          name: Update Algolia
-          command: bin/update-algolia
