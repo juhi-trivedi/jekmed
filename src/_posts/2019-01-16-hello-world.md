@@ -21,7 +21,3 @@ featured: true
 hidden: true
 ---
 Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
-Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
-Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
-Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
-Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
